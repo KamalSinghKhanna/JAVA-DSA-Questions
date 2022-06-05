@@ -1,4 +1,4 @@
-package Questions;
+package Strings.Questions;
 
 public class IpAdress {
     public static void main(String[] args) {

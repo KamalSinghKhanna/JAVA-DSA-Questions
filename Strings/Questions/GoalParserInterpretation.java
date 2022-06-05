@@ -1,4 +1,4 @@
-package Questions;
+package Strings.Questions;
 //https://leetcode.com/problems/goal-parser-interpretation/
 public class GoalParserInterpretation {
     public static void main(String[] args) {

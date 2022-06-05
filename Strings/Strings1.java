@@ -1,8 +1,10 @@
+package Strings;
+
 public class Strings1 {
     public static void main(String[] args) {
-        String a = "kamal";
         // String a = "kamal";
-        String b = new String("kamal");
+        // String a = "kamal";
+        // String b = new String("kamal");
         // System.out.println(a == b);
         // System.out.println(a.equals(b));
 
@@ -12,7 +14,7 @@ public class Strings1 {
 
 
         //pretty printing
-        float x = 453.1264f;
+        // float x = 453.1264f;
         // System.out.printf("Formatted number is %.2f", x);
     
 

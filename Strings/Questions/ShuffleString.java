@@ -1,4 +1,4 @@
-package Questions;
+package Strings.Questions;
 
 //https://leetcode.com/problems/shuffle-string/
 public class ShuffleString {
