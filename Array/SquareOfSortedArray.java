@@ -1,4 +1,5 @@
-package Array;
+// package Array;
+//https://leetcode.com/problems/squares-of-a-sorted-array/submissions/
 import java.util.Arrays;
 
 public class SquareOfSortedArray {
@@ -8,29 +9,21 @@ public class SquareOfSortedArray {
     }
     static int[] sortedSquares(int[] nums) {
         int n = nums.length;
-        int[] res = new int[n];
-        int l= 0; int r = n-1;
-        while (l<=r) {
-            if (nums[l]*nums[l]>nums[r]*nums[r]) {
-               res[l] = nums[l]*nums[l];
-                l++;
+        int left = 0; 
+        int right = n-1;
+        int pointer= n-1;
+        int[] res = new int [n];
+        while(left <= right) {
+            if(Math.abs(nums[right])<Math.abs(nums[left])){
+                res[pointer] = nums[left]*nums[left];
+                left++;
             } else{
-                res[l] = nums[r]*nums[r];
-                r--;
+                res[pointer] = nums[right]*nums[right];
+                right--;
             }
+            pointer--;
         }
-
-        return reverse(res, n);
-      
+               return res;
     }
-    static int[] reverse(int a[], int n)
-    {
-        int[] b = new int[n];
-        int j = n;
-        for (int i = 0; i < n; i++) {
-            b[j - 1] = a[i];
-            j = j - 1;
-        }
-        return b;
-}
+   
 }

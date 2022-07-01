@@ -1,4 +1,4 @@
-package Array;
+// package Array;
 
 public class EvenDigitOfNumber {
     public static void main(String[] args) {

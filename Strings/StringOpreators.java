@@ -1,4 +1,4 @@
-package Strings;
+// package Strings;
 
 public class StringOpreators {
     public static void main(String[] args) {

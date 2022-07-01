@@ -1,7 +1,7 @@
-package Strings.Questions;
+// // package Strings.Questions;
 
-public class CountItemsMatchingaRule {
-    public static void main(String[] args) {
+// public class CountItemsMatchingaRule {
+//     public static void main(String[] args) {
         
-    }
-}
+//     }
+// }
